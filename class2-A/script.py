@@ -20,3 +20,41 @@ print(age)
 print(f"my_age: {my_age}")
 
 # = ko Assignment operator bolte hn
+
+# Arithmatic operator
+#  + , - , * , / , % , ** , //
+
+num1 = 20
+num2 = 50
+
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / 5)
+print(num1 // 5)
+print(num1 // 5.5)
+print("--------------------")
+print(num1 % 7)
+print(num1 ** 2)
+
+# Comparison operator
+# == , != , > , < , >= , <=
+
+num3 = 22
+num4 = "22"
+
+print(num1 == num2)
+print(num1 != num2)
+print(num1>num2)
+print(num1<num2)
+print(num1>=num2)
+print(num1<=num2)
+
+statement2 = 10* 12**84 + 32 -1000*384.86 == 456*654
+
+# Logical operator
+# and , or , not
+marks = 33
+if marks>33:
+    print("Pass")
+print("Testing")
