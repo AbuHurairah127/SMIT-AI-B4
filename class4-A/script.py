@@ -43,3 +43,10 @@ print("Hello World",end="\t")
 print("Dummy Data")
 print("Questions")
 print("Testing")
+def div(num1,num2,num3,num4,num5):
+    a = num1/num2
+    b = a*num3
+    c = b + num4
+    d = c - num5
+    print(d)
+div(10,20,30,40,50)
