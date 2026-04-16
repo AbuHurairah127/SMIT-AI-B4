@@ -85,11 +85,48 @@ students = ["Ali","Ahmad","Anas","Rizwan","Zahid","Bilal"]
 # * * * * *
 
 
-i = 1
-while i <= 5:
-    j = 1
-    while j <= i: # j = 1, i = 1
-        print("*", end=" ")
-        j += 1 # j = 2,3
-    print()
-    i += 1 # i = 2
+# i = 1
+# while i <= 5:
+#     j = 1
+#     while j <= i: # j = 1, i = 1
+#         print("*", end=" ")
+#         j += 1 # j = 2,3
+#     print()
+#     i += 1 # i = 2
+
+
+
+# 1 
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+
+
+# i = 1
+# while i < 6:
+#     j = 1
+#     while j <= i:
+#         print(j, end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+# print(list(range(1,51,2)))
+# for elem in range(1,10):
+#     print(elem)
+
+
+# sum = 1
+# for abc in range(0,19,2):
+#     sum = sum * abc
+
+# print(sum)
+
+
+
+for elem in range(1,10):
+    if elem == 5:
+        break
+    print(elem)
+
