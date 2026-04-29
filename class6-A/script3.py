@@ -1,2 +1,2 @@
 number:float = "Abu Hurairah"
-print(type(number))
+print(number)
