@@ -43,3 +43,58 @@
 # print(student.clear())
 # print(student.popitem())
 # print(student)
+
+
+# Tuple
+
+# numT = (5,4,6,7,8,1,2,3)
+# numList = [5,4,6,7,8,1,2,3]
+# print(numT.count(5))
+# print(numT.index(5))
+# print(len(numT))
+# # numList[0] = 10
+# # print(numT[0])
+# # print(numList[0])
+
+
+# roles = ("admin","user","guest","superadmin")
+# # a, b, c = roles
+# # print(a,b,c)
+
+# a, b,c,d = roles
+# e,*f = roles
+# print(a,b,c,d)
+# print(e,f)
+
+
+# a = {1,2,3,2,2,6,7,8,9,10}
+# print(a.add(11))
+# # print(a.remove(23))
+# print(a.discard(10))
+# print(a.pop())
+# print(len(a))
+# # print(a.copy())
+# # print(a.clear())
+# # print(a)
+
+b = {11,12,13,4,3,1,1,8,19,20}
+print("b",b)
+
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))
+# print(a.symmetric_difference(b))
+# print(a.issubset(b))
+# print(a.issuperset(b))
+# print(a.isdisjoint(b))
+# print(a.isdisjoint(b))
+
+# abc = (1,2,3,4,5) * 3
+# print(abc)
+# abc = ()
+
+
+
+my_list = [1,2,3,4,5,5,5,5,9,10]
+my_set = set(my_list)
+print(my_set)
